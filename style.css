@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1.3vw;
+}
+
+#logo {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0px;
+    padding: 8px;
+}
+
+h1 {
+    font-weight: 850; /* This makes the font extra bold */
+    font-size: 30px;   /* Keeps the size small */
+    letter-spacing: 1.5px; /* Adds a bit of space between the letters (optional) */
+}
+
+
+cite > a {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+}
+
+ul {
+    margin: 0px
+}
+
+body > header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: lightpink;
+    color: white;
+    display: flex;
+    height: 14vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul > li{
+    padding:8px ;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: black;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border: 1px;
+    border-radius: 10%;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+body > main article {
+    width: 60%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+#main-content > div {
+    width: 85%;
+    justify-content: space-around;
+}
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: lightpink;
+    color: white;  
+    display: flex;
+}
+
+footer > h2{
+    font-weight: 900;  /* Extra bold */
+    font-size: 20px;   /* Small size */
+    letter-spacing: 1px; /* Adds a little space between letters */
+    text-decoration: none;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+#footer-ul > div > li > a {
+    margin-left: 12px;
+    text-decoration: none;
+}
+
